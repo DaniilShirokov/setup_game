@@ -35,7 +35,7 @@ public class Main {
     }
 
     public static void createLogRecord (File file) {
-        infoAboutDownload.append( file.getName() + "создан в " + file.getPath() + "\n");
+        infoAboutDownload.append( file.getName() + " создан в " + file.getPath() + "\n");
     }
 
     public static void createLogFile() {
